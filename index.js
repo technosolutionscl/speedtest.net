@@ -142,9 +142,6 @@ function appendFileName(fileName, trailer) {
 
 async function ensureBinary({ platform = process.platform, arch = process.arch, binaryVersion = defaultBinaryVersion } = {}) {
 	const binaryLocation = 'https://install.speedtest.net/app/cli/ookla-speedtest-';
-	console.log('platforms[platform]?.[arch]', platforms[platform]?.[arch])
-	console.log('platforms[platform]?.universal', platforms[platform]?.universal)
-	console.log('platforms[platform]', platforms[platform])
 	const found = platforms[platform]?.[arch] ?? platforms[platform]?.universal ?? platforms[platform];//platforms.find(p => p.platform === platform && p.arch === arch);
 	if (!found) throw new Error(`${platform} on ${arch} not supported`);
 	let
