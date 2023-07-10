@@ -1,0 +1,45 @@
+{
+    "linux": {
+        "_extension": "tgz",
+        "i386": {
+            "sha": "9ff7e18dbae7ee0e03c66108445a2fb6ceea6c86f66482e1392f55881b772fe8",
+            "_updated": "2023-07-10T17:56:02.595Z"
+        },
+        "x64": {
+            "arch": "x86_64",
+            "sha": "5690596c54ff9bed63fa3732f818a05dbc2db19ad36ed68f21ca5f64d5cfeeb7",
+            "_updated": "2023-07-10T17:56:02.701Z"
+        },
+        "armel": {
+            "sha": "629a455a2879224bd0dbd4b36d8c721dda540717937e4660b4d2c966029466bf",
+            "_updated": "2023-07-10T17:56:02.790Z"
+        },
+        "armhf": {
+            "sha": "e45fcdebbd8a185553535533dd032d6b10bc8c64eee4139b1147b9c09835d08d",
+            "_updated": "2023-07-10T17:56:02.880Z"
+        },
+        "aarch64": {
+            "sha": "3953d231da3783e2bf8904b6dd72767c5c6e533e163d3742fd0437affa431bd3",
+            "_updated": "2023-07-10T17:56:02.967Z"
+        }
+    },
+    "darwin": {
+        "_extension": "tgz",
+        "_platform": "macosx",
+        "universal": {
+            "arch": "universal",
+            "sha": "c9f8192149ebc88f8699998cecab1ce144144045907ece6f53cf50877f4de66f",
+            "_updated": "2023-07-10T17:56:03.053Z"
+        }
+    },
+    "win64": {
+        "_extension": "zip",
+        "_binExt": "exe",
+        "_pkg": "",
+        "sha": "13e3d888b845d301a556419e31f14ab9bff57e3f06089ef2fd3bdc9ba6841efa",
+        "_updated": "2023-07-10T17:56:03.176Z"
+    },
+    "_freebsd": {
+        "_extension": "pkg"
+    }
+}
