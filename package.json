@@ -2,12 +2,12 @@
   "name": "speedtest-net",
   "description": "Speedtest.net client",
   "author": "Han de Boer",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "bin": "bin/index.js",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ddsol/speedtest.net.git"
+    "url": "https://github.com/technosolutionscl/speedtest.net.git"
   },
   "dependencies": {
     "@felipecrs/decompress-tarxz": "^4.0.0",
@@ -29,6 +29,7 @@
   "license": "MIT",
   "files": [
     "bin/index.js",
-    "index.js"
+    "index.js",
+    "platforms.json"
   ]
 }
